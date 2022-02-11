@@ -1,0 +1,77 @@
+.user-list {
+    width: 250px;
+    min-width: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fbfbfb;
+    color: var(--heading-color);
+  }
+  .user-list.dark {
+    color:white;
+    background-color: rgb(29, 29, 29);
+  }
+  .user-list h2 {
+    text-align: right;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.2em;
+  }
+  .user-list .user-list-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px auto;
+    user-select: none;
+  }
+  .user-list .trigger {
+    display:flex;
+    align-items:center;
+    /*cursor: pointer;*/
+  }
+  /* .user-list .trigger::before {
+    content: ">";
+    margin-right:10px;
+    transform: rotate(180deg) scale(0.5, 1);
+    font-weight:bold;
+    font-size:20px;
+    transition: transform 0.3s;
+  }
+  .user-list .trigger.active::before {
+    transform:rotate(0deg) scale(0.5,1);
+  } */
+
+  .user-list .content {
+    display:none;
+  }
+  .user-list .content.active {
+    display:block;
+    text-align:center;
+    cursor:pointer;
+  }
+  .user-list .content img {
+    width:30px;
+    margin-right:10px;
+    position:relative;
+  }
+  .user-list.dark .content img {
+    filter:invert(100%)
+  }
+
+  .user-list .avatar {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .user-list .online-user {
+    display: inline-block;
+    margin-right:10px;
+    width: 12px;
+    height: 12px;
+    background: #0ebb50;
+    border-radius: 50%;
+    margin-top: 2px;
+  }
+
+  

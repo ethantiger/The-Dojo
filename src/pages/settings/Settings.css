@@ -1,0 +1,79 @@
+.page-title.dark {
+    color:#fff;
+}
+.settings-page .light-dark {
+    width: 40px;
+}
+.settings-page .theme-buttons {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+ .settings-page .theme-buttons button {
+    display: flex;
+    margin-left:auto;
+}
+.settings-page .theme-buttons.dark {
+    background-color: rgb(29, 29, 29);
+}
+.settings-page .theme-buttons.dark p {
+    color:white;
+}.settings-page .theme-buttons .settings-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.settings-page .theme-buttons .mode-buttons {
+    display:inline-flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.settings-page .theme-buttons p {
+    margin: 10px;
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.settings-page .theme-buttons p.active {
+    color: var(--primary-color);
+}
+.color-buttons div {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 50%;
+  }
+
+
+
+  .name-form form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  .name-form label {
+      margin:20px;
+      display:flex;
+      
+  }
+  .theme-buttons.dark .name-form label {
+    color:#ccc;
+  }
+  .name-form input {
+      margin-left:20px;
+      max-width: 200px;
+  }
+  .theme-buttons.dark .name-form input {
+    background-color: #333;
+    color:#fff;
+    border: 1px solid #000;
+  }

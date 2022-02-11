@@ -1,0 +1,18 @@
+.create-form {
+    max-width: 600px;
+}
+.btn {
+    margin-right: 10px;
+}
+.create-form.dark span {
+    color:#ddd;
+}
+.create-form.dark input, 
+.create-form.dark textarea { 
+    background-color: rgb(29, 29, 29);
+    color:#fff;
+    border: 1px solid #000;
+}
+.create-form.dark button {
+    background-color: rgb(29, 29, 29);
+}

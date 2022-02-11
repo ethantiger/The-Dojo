@@ -1,0 +1,90 @@
+.users-filter {
+    margin: 30px auto;
+  }
+.users-filter nav {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  .users-filter p {
+    font-size: 0.9em;
+    margin-right: 10px;
+  }
+  .users-filter.dark nav {
+    background-color: rgb(29, 29, 29);
+    color:#fff;
+  }
+
+.users-filter button {
+    background: transparent;
+    border: 0;
+    font-family: inherit;
+    font-weight: bold;
+    color: var(--text-color);
+    cursor: pointer;
+    border-right: 1px solid #e4e4e4;
+    font-size: 0.9em;
+}
+.users-filter button:last-child {
+    border: 0;
+  }
+  .users-filter.dark button {
+    color:#ccc;
+  }
+  .users-filter button.active {
+    color: var(--primary-color);
+  } 
+
+  .message-board li {
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    background: #fff;
+  }
+  .message-board li:last-child {
+    margin-bottom:150px;
+  }
+  .message-board.dark li {
+    background-color: rgb(29, 29, 29);
+    color:#fff;
+    border:1px solid #000;
+  }
+  .message-board.dark li {
+    background-color: rgb(29, 29, 29);
+    color:#fff;
+    border:1px solid #000;
+  }
+  .message-author {
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+  }
+  .message-date {
+    color: var(--text-color);
+    font-size: 0.9em;
+    margin: 4px 0 10px;
+  }
+  .message-content {
+    color: var(--text-color);
+    font-size: 0.9em;
+  }
+  .message-board.dark .message-content {
+    color:#fff;
+  }
+
+  .input-message {
+    position: fixed;
+    max-width: 1000px;
+    padding: 20px;
+    left: 50%;/* Negative half of height. */
+    margin-left: -500px;/* Negative half of width. */
+    bottom: 30px;
+  }
+  .message-board.dark .input-message {
+    background-color: rgb(29, 29, 29);
+    color:#fff;
+    border: 1px solid var(--primary-color);
+  }
